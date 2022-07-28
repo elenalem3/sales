@@ -5,6 +5,8 @@ public class Main {
 
         System.out.println("Максимальное количество продаж за период: " + period.max() + " шт.");
 
+        System.out.println("Среднее количество продаж за период: " + period.croppedAverage() + " шт.");
+
     }
 
 }
