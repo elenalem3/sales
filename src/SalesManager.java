@@ -15,9 +15,9 @@ public class SalesManager {
         return max;
     }
 
-    public int min() {
-        int min = sales[0];
-        for (int sale : sales) {
+    public long min() {
+        long min = sales[0];
+        for (long sale : sales) {
             if (sale < min) {
                 min = sale;
             }
@@ -25,9 +25,9 @@ public class SalesManager {
         return min;
     }
 
-    public int croppedAverage() {
-        int sum = 0;
-        for (int i : sales) {
+    public long croppedAverage() {
+        long sum = 0;
+        for (long i : sales) {
             sum += i;
         }
         return (sum - this.max() - this.min()) / (sales.length - 2);
