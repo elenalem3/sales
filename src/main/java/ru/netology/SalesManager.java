@@ -1,3 +1,5 @@
+package ru.netology;
+
 public class SalesManager {
     protected long[] sales;
 
