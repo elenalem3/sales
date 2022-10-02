@@ -16,7 +16,7 @@ public class SalesManagerTest {
     }
 
     @Test
-    @DisplayName("Тестирование поика максимума")
+    @DisplayName("Тестирование поиска максимума")
     void max() {
         Assertions.assertEquals(100, period.max());
     }
